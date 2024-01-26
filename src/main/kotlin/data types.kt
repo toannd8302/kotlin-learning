@@ -9,6 +9,8 @@ fun main(args: Array<String>) {
     //khai báo tường minh
     var y:Double = 8.5
 
+    var t:Int = 0
+
     //khai báo không tường minh
     var z = 10.76
 
@@ -23,7 +25,7 @@ fun main(args: Array<String>) {
     var soF = 10
     println("Kiểu dữ liệu của SoE là: " + (soE::class.java.typeName))
     println("Kiểu dữ liệu của soF là: " + (soF::class.java.typeName))
-        //kiểu LONG
+        //TODO: kiểu LONG
     var soG:Long = 12L  // var soE:Int = 12l => ERROR
     var soH = 4L
     println("Kiểu của soG la: " + (soG::class.java.typeName))
@@ -44,5 +46,19 @@ fun main(args: Array<String>) {
     var str4 = """
         Thân em vừa trắng lại vừa tròn
         Bảy nổi ba chìm với nước non
+        Hello mấy cưng 
     """
+
+    //TODO: Kiểu boolean
+    var check:Boolean = false
+    var check2:Boolean = true
+
+    //TODO: Kiểu arr
+    var mangSoThuc:FloatArray = floatArrayOf(0.5f, 7.5f,5.8f)
+    var mangKyTu: CharArray = charArrayOf('a','b','c')
+
+    //TODO: khai báo hằng
+    val nhietDoSoi:Int = 100
+    val nhietDoDong:Int = 0
+    val nhietDoNongChay = 1000
 }
