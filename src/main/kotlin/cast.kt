@@ -41,6 +41,4 @@ println("CHƯƠNG TRÌNH TÍNH DIỆN TÍCH VÀ CHU VI CỦA HÌNH TRÒN" )
         println("Chu vi = " + cVi)
         println("Diện tích = " + dienTich)
     }
-
-
 }

@@ -12,5 +12,4 @@ fun main(args: Array<String>) {
     println("x = $x" )
     println("y = $y")
 
-
 }
